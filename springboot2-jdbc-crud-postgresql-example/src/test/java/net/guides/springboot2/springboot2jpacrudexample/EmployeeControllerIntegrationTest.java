@@ -1,6 +1,7 @@
 package net.guides.springboot2.springboot2jpacrudexample;
 
-import net.guides.springboot2.springboot2jpacrudexample.model.Employee;
+import net.guides.springboot2.jdbc.Application;
+import net.guides.springboot2.jdbc.model.Employee;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -14,6 +15,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @SpringBootTest(classes = Application.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class EmployeeControllerIntegrationTest {
+	
 	@Autowired
 	private TestRestTemplate restTemplate;
 

@@ -5,11 +5,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>net.guides.springboot2</groupId>
-	<artifactId>springboot2-logging</artifactId>
+	<artifactId>springboot2-jdbc-crud-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springboot2-logging</name>
+	<name>springboot2-jpa-crud-example</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -30,14 +30,29 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jdbc</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
-		
 	</dependencies>
 
 	<build>
