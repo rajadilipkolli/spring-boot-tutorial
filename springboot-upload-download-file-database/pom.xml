@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>net.javaguides.springboot</groupId>
-    <artifactId>springboot-upload-download-file-rest-api-example</artifactId>
+    <artifactId>springboot-upload-download-file-database</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>springboot-upload-download-file-rest-api-example</name>
+    <name>springboot-upload-download-file-database</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
