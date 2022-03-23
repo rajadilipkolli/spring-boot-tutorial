@@ -1,4 +1,4 @@
-package net.guides.springboot2.springboot2jpaswagger2;
+package net.guides.springboot2.springboot2swagger2;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
