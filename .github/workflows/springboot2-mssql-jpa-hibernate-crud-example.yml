@@ -30,7 +30,7 @@ jobs:
           cache: "maven"
       - name: Start up databases via docker compose
         run: |
-          cd springboot2-mssql-crud-postgresql-example
+          cd springboot2-mssql-jpa-hibernate-crud-example
           docker compose up -d
           sleep 15
           docker ps -a
