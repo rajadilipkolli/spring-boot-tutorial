@@ -17,7 +17,7 @@
 		class="net.guides.springboot2.springboot2xmlconfig.service.TwitterService" />
 	<bean id="messageProcessor"
 		class="net.guides.springboot2.springboot2xmlconfig.service.MessageProcessorImpl">
-		<property name="messageService" ref="twitterService"></property>
+		<property name="messageService" ref="twitterService" />
 	</bean>
 
 </beans>
