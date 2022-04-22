@@ -1,28 +1,20 @@
-package net.guides.springboot2.springboot2jpacrudexample;
+package net.guides.springboot2.crud;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import net.guides.springboot2.crud.model.Employee;
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.boot.web.server.LocalServerPort;
-import org.springframework.http.HttpEntity;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.http.*;
 import org.springframework.web.client.HttpClientErrorException;
 
-import net.guides.springboot2.crud.Application;
-import net.guides.springboot2.crud.model.Employee;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest(classes = Application.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class EmployeeControllerIntegrationTest {
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+class EmployeeControllerIntegrationTest {
+
 	@Autowired
 	private TestRestTemplate restTemplate;
 
@@ -34,12 +26,12 @@ public class EmployeeControllerIntegrationTest {
 	}
 
 	@Test
-	public void contextLoads() {
+	void contextLoads() {
 
 	}
 
 	@Test
-	public void testGetAllEmployees() {
+	void testGetAllEmployees() {
 		HttpHeaders headers = new HttpHeaders();
 		HttpEntity<String> entity = new HttpEntity<String>(null, headers);
 
@@ -50,14 +42,14 @@ public class EmployeeControllerIntegrationTest {
 	}
 
 	@Test
-	public void testGetEmployeeById() {
+	void testGetEmployeeById() {
 		Employee employee = restTemplate.getForObject(getRootUrl() + "/employees/1", Employee.class);
 		System.out.println(employee.getFirstName());
 		assertNotNull(employee);
 	}
 
 	@Test
-	public void testCreateEmployee() {
+	void testCreateEmployee() {
 		Employee employee = new Employee();
 		employee.setEmailId("admin@gmail.com");
 		employee.setFirstName("admin");
@@ -69,7 +61,7 @@ public class EmployeeControllerIntegrationTest {
 	}
 
 	@Test
-	public void testUpdateEmployee() {
+	void testUpdateEmployee() {
 		int id = 1;
 		Employee employee = restTemplate.getForObject(getRootUrl() + "/employees/" + id, Employee.class);
 		employee.setFirstName("admin1");
@@ -82,7 +74,7 @@ public class EmployeeControllerIntegrationTest {
 	}
 
 	@Test
-	public void testDeleteEmployee() {
+	void testDeleteEmployee() {
 		int id = 2;
 		Employee employee = restTemplate.getForObject(getRootUrl() + "/employees/" + id, Employee.class);
 		assertNotNull(employee);
