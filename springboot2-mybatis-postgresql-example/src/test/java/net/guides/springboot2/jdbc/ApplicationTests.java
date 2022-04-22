@@ -1,14 +1,14 @@
-package net.guides.springboot2.springboot2jpacrudexample;
+package net.guides.springboot2.jdbc;
 
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-public class ApplicationTests {
+class ApplicationTests {
 
 	@Test
-	public void contextLoads() {
+	void contextLoads() {
 	}
 
 }

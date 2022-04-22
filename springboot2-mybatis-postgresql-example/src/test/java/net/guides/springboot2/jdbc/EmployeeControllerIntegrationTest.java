@@ -1,4 +1,4 @@
-package net.guides.springboot2.springboot2jpacrudexample;
+package net.guides.springboot2.jdbc;
 
 import net.guides.springboot2.jdbc.Application;
 import net.guides.springboot2.jdbc.model.Employee;
@@ -14,8 +14,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 
-@SpringBootTest(classes = Application.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+@SpringBootTest( webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class EmployeeControllerIntegrationTest {
+	
 	@Autowired
 	private TestRestTemplate restTemplate;
 

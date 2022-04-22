@@ -1,4 +1,4 @@
-create table employees
+create table IF NOT EXISTS employees
 (
    id integer not null,
    first_name varchar(255) not null, 
