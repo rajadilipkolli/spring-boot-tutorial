@@ -1,13 +1,13 @@
-name: springboot2-webapp-jsp
+name: springboot2-xml-config
 
 on:
   push:
     paths:
-      - "springboot2-webapp-jsp/**"
+      - "springboot2-xml-config/**"
     branches: [master]
   pull_request:
     paths:
-      - "springboot2-webapp-jsp/**"
+      - "springboot2-xml-config/**"
     types:
       - opened
       - synchronize
@@ -30,6 +30,6 @@ jobs:
           cache: "maven"
       - name: Build and analyze
         run: |
-          cd springboot2-webapp-jsp
+          cd springboot2-xml-config
           chmod +x mvnw
           ./mvnw clean package
