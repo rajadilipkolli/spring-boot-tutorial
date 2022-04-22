@@ -1,6 +1,5 @@
-package net.guides.springboot2.springboot2jpacrudexample;
+package net.guides.springboot2.crud;
 
-import net.guides.springboot2.crud.Application;
 import net.guides.springboot2.crud.model.Employee;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,8 +12,9 @@ import org.springframework.web.client.HttpClientErrorException;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-@SpringBootTest(classes = Application.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class EmployeeControllerIntegrationTest {
+
 	@Autowired
 	private TestRestTemplate restTemplate;
 
@@ -26,12 +26,12 @@ class EmployeeControllerIntegrationTest {
 	}
 
 	@Test
-	public void contextLoads() {
+	void contextLoads() {
 
 	}
 
 	@Test
-	public void testGetAllEmployees() {
+	void testGetAllEmployees() {
 		HttpHeaders headers = new HttpHeaders();
 		HttpEntity<String> entity = new HttpEntity<String>(null, headers);
 
@@ -42,14 +42,14 @@ class EmployeeControllerIntegrationTest {
 	}
 
 	@Test
-	public void testGetEmployeeById() {
+	void testGetEmployeeById() {
 		Employee employee = restTemplate.getForObject(getRootUrl() + "/employees/1", Employee.class);
 		System.out.println(employee.getFirstName());
 		assertNotNull(employee);
 	}
 
 	@Test
-	public void testCreateEmployee() {
+	void testCreateEmployee() {
 		Employee employee = new Employee();
 		employee.setEmailId("admin@gmail.com");
 		employee.setFirstName("admin");
@@ -61,7 +61,7 @@ class EmployeeControllerIntegrationTest {
 	}
 
 	@Test
-	public void testUpdateEmployee() {
+	void testUpdateEmployee() {
 		int id = 1;
 		Employee employee = restTemplate.getForObject(getRootUrl() + "/employees/" + id, Employee.class);
 		employee.setFirstName("admin1");
@@ -74,7 +74,7 @@ class EmployeeControllerIntegrationTest {
 	}
 
 	@Test
-	public void testDeleteEmployee() {
+	void testDeleteEmployee() {
 		int id = 2;
 		Employee employee = restTemplate.getForObject(getRootUrl() + "/employees/" + id, Employee.class);
 		assertNotNull(employee);
