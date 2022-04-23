@@ -1,4 +1,4 @@
-package net.guides.springboot2.springboot2swagger2;
+package net.guides.springboot2.springboot2swagger3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
