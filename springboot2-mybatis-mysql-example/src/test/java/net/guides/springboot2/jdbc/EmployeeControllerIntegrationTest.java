@@ -1,4 +1,4 @@
-package net.guides.springboot2.springboot2jpacrudexample;
+package net.guides.springboot2.jdbc;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -18,8 +18,9 @@ import org.springframework.web.client.HttpClientErrorException;
 import net.guides.springboot2.jdbc.Application;
 import net.guides.springboot2.jdbc.model.Employee;
 
-@SpringBootTest(classes = Application.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+@SpringBootTest(classes = TestApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class EmployeeControllerIntegrationTest {
+	
 	@Autowired
 	private TestRestTemplate restTemplate;
 
