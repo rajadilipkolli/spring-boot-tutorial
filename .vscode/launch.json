@@ -37,6 +37,16 @@
             "projectName": "net.guides.springboot2-springboot2-jpa-swagger3",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringbootThymeleafSecurityDemoApplication<com.apress-springboot-thymeleaf-security-demo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "net.javaguides.springbootsecurity.SpringbootThymeleafSecurityDemoApplication",
+            "projectName": "com.apress-springboot-thymeleaf-security-demo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
