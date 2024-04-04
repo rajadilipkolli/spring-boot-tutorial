@@ -1,0 +1,661 @@
+repo_name: rajadilipkolli/spring-boot-tutorial
+report_id: 2986ccf41993493e59769052dd6b09c9
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-04T14:27:49+00:00'
+requested_by: renovate[bot]
+provider: github
+branch: master
+detected_tools_count: 53
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot-multiple-datasources/src/main/resources/orders-data.sql
+  detection_source: springboot-multiple-datasources/src/main/resources/orders-data.sql
+  last_updated_by: rfadatare
+  last_updated_on: 2018-09-17 07:27:09.000000000 Z
+- name: Apache FreeMarker
+  description: A free Java-based template engine
+  website_url: http://freemarker.incubator.apache.org/index.html
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/4456/ymCgaIO0_400x400.jpg
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial
+  detection_source: Repo Metadata
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot-stomp-websocket/build.gradle
+  detection_source: springboot-stomp-websocket/build.gradle
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-09-15 16:07:23.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/login-registration-springboot-hibernate-jsp-auth/pom.xml
+  detection_source: login-registration-springboot-hibernate-jsp-auth/pom.xml
+  last_updated_by: Raja Dilip Kolli
+  last_updated_on: 2023-07-16 21:11:57.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/login-registration-springboot-hibernate-jsp-auth/pom.xml
+  detection_source: login-registration-springboot-hibernate-jsp-auth/pom.xml
+  last_updated_by: Ramesh Fadatare
+  last_updated_on: 2019-09-21 04:48:02.000000000 Z
+- name: ActiveMQ
+  description: A message broker written in Java together with a full JMS client
+  website_url: http://activemq.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1062/default_08edb6f82e2c79424efc1e297ab096e50acd8e0b.jpg
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot2-jms-activemq/pom.xml
+  detection_source: springboot2-jms-activemq/pom.xml
+  last_updated_by: Ramesh Fadatare
+  last_updated_on: 2019-02-28 10:40:57.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/spring-aop-advice-examples/pom.xml
+  detection_source: spring-aop-advice-examples/pom.xml
+  last_updated_by: Ramesh Fadatare
+  last_updated_on: 2019-05-16 10:02:16.000000000 Z
+- name: MSSQL
+  description: It is an enterprise-level database system that is very popular for
+    Windows web servers
+  website_url: https://www.microsoft.com/en-us/sql-server
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/2445/ZKsJsucq_400x400.jpg
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot-mssql-jpa-hibernate-crud-example/pom.xml
+  detection_source: springboot-mssql-jpa-hibernate-crud-example/pom.xml
+  last_updated_by: rfadatare
+  last_updated_on: 2019-01-09 16:14:53.000000000 Z
+- name: Microsoft SQL Server
+  description: A relational database management system developed by Microsoft
+  website_url: http://microsoft.com/sqlserver
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1027/sql_server.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot-mssql-jpa-hibernate-crud-example/pom.xml
+  detection_source: springboot-mssql-jpa-hibernate-crud-example/pom.xml
+  last_updated_by: Ramesh Fadatare
+  last_updated_on: 2023-03-29 09:01:16.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot-mongodb-crud/pom.xml
+  detection_source: springboot-mongodb-crud/pom.xml
+  last_updated_by: Ramesh Fadatare
+  last_updated_on: 2019-12-07 03:41:37.000000000 Z
+- name: MyBatis
+  description: SQL Mapper Framework for Java
+  website_url: http://www.mybatis.org/mybatis-3/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/5582/1483254.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot2-mybatis-mysql-example/pom.xml
+  detection_source: springboot2-mybatis-mysql-example/pom.xml
+  last_updated_by: Ramesh Fadatare
+  last_updated_on: 2019-08-03 17:07:02.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot-postgresql-jpa-hibernate-crud-example/pom.xml
+  detection_source: springboot-postgresql-jpa-hibernate-crud-example/pom.xml
+  last_updated_by: Ramesh Fadatare
+  last_updated_on: 2023-03-29 09:02:29.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/.github/workflows/login-registration-springboot-hibernate-jsp-auth.yml
+  detection_source: ".github/workflows/login-registration-springboot-hibernate-jsp-auth.yml"
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-01-24 16:53:41.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot-stomp-websocket/build.gradle
+  detection_source: springboot-stomp-websocket/build.gradle
+  last_updated_by: Ramesh Fadatare
+  last_updated_on: 2019-06-14 07:24:49.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot2-junit5-example/pom.xml
+  detection_source: springboot2-junit5-example/pom.xml
+  last_updated_by: Ramesh Fadatare
+  last_updated_on: 2023-03-29 09:02:29.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot2-jms-activemq/src/main/resources/logback.xml
+  detection_source: springboot2-jms-activemq/src/main/resources/logback.xml
+  last_updated_by: Ramesh Fadatare
+  last_updated_on: 2019-02-28 10:40:57.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/login-registration-springboot-hibernate-jsp-auth/src/main/resources/application.properties
+  detection_source: login-registration-springboot-hibernate-jsp-auth/src/main/resources/application.properties
+  last_updated_by: Ramesh Fadatare
+  last_updated_on: 2019-09-21 04:48:02.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot2-jms-activemq/pom.xml
+  detection_source: springboot2-jms-activemq/pom.xml
+  last_updated_by: Ramesh Fadatare
+  last_updated_on: 2019-02-28 10:40:57.000000000 Z
+- name: com.h2database:h2
+  description: H2 Database Engine
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/spring-aop-advice-examples/pom.xml
+  detection_source: spring-aop-advice-examples/pom.xml
+  last_updated_by: Ramesh Fadatare
+  last_updated_on: 2019-05-16 10:02:16.000000000 Z
+- name: com.microsoft.sqlserver:mssql-jdbc
+  description: Microsoft JDBC 4.1 Driver for SQL Server
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot-mssql-jpa-hibernate-crud-example/pom.xml
+  detection_source: springboot-mssql-jpa-hibernate-crud-example/pom.xml
+  last_updated_by: Ramesh Fadatare
+  last_updated_on: 2023-03-29 09:02:29.000000000 Z
+- name: javax.servlet.jsp.jstl:jstl-api
+  version: '1.2'
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/login-registration-springboot-hibernate-jsp-auth/pom.xml
+  detection_source: login-registration-springboot-hibernate-jsp-auth/pom.xml
+  last_updated_by: Raja Dilip Kolli
+  last_updated_on: 2023-07-16 21:11:57.000000000 Z
+- name: jstl:jstl
+  version: '1.2'
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot2-webapp-jsp-WAR/pom.xml
+  detection_source: springboot2-webapp-jsp-WAR/pom.xml
+  last_updated_by: Ramesh Fadatare
+  last_updated_on: 2023-03-29 09:02:29.000000000 Z
+- name: nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect
+  description: A dialect for Thymeleaf that allows you to use layout/decorator templates
+    to style your content
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot-thymeleaf-security-demo/pom.xml
+  detection_source: springboot-thymeleaf-security-demo/pom.xml
+  last_updated_by: Raja Kolli
+  last_updated_on: 2023-07-16 22:38:10.000000000 Z
+- name: org.apache.activemq:activemq-broker
+  description: The ActiveMQ Message Broker implementation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot2-jms-activemq/pom.xml
+  detection_source: springboot2-jms-activemq/pom.xml
+  last_updated_by: Ramesh Fadatare
+  last_updated_on: 2019-02-28 10:40:57.000000000 Z
+- name: org.apache.tomcat.embed:tomcat-embed-jasper
+  description: Core Tomcat implementation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/login-registration-springboot-hibernate-jsp-auth/pom.xml
+  detection_source: login-registration-springboot-hibernate-jsp-auth/pom.xml
+  last_updated_by: Raja Dilip Kolli
+  last_updated_on: 2023-07-16 21:11:57.000000000 Z
+- name: org.glassfish.jaxb:jaxb-runtime
+  description: JAXB
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/login-registration-springboot-hibernate-jsp-auth/pom.xml
+  detection_source: login-registration-springboot-hibernate-jsp-auth/pom.xml
+  last_updated_by: Raja Dilip Kolli
+  last_updated_on: 2023-07-16 21:11:57.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-api
+  description: Module "junit-jupiter-api" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot2-junit5-example/pom.xml
+  detection_source: springboot2-junit5-example/pom.xml
+  last_updated_by: Ramesh Fadatare
+  last_updated_on: 2023-03-29 09:02:29.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-engine
+  description: Module "junit-jupiter-engine" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot2-junit5-example/pom.xml
+  detection_source: springboot2-junit5-example/pom.xml
+  last_updated_by: Ramesh Fadatare
+  last_updated_on: 2023-03-29 09:02:29.000000000 Z
+- name: org.mybatis.spring.boot:mybatis-spring-boot-starter
+  description: Spring Boot Support for MyBatis
+  version: 3.0.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot2-mybatis-mysql-example/pom.xml
+  detection_source: springboot2-mybatis-mysql-example/pom.xml
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-07-16 18:05:38.000000000 Z
+- name: org.postgresql:postgresql
+  description: The PostgreSQL Driver JDBC4
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot-postgresql-jpa-hibernate-crud-example/pom.xml
+  detection_source: springboot-postgresql-jpa-hibernate-crud-example/pom.xml
+  last_updated_by: Ramesh Fadatare
+  last_updated_on: 2023-03-29 09:02:29.000000000 Z
+- name: org.springframework.boot:spring-boot-configuration-processor
+  description: Spring Boot Configuration Processor
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot-multiple-datasources/pom.xml
+  detection_source: springboot-multiple-datasources/pom.xml
+  last_updated_by: Ramesh Fadatare
+  last_updated_on: 2023-03-29 09:02:29.000000000 Z
+- name: org.springframework.boot:spring-boot-devtools
+  description: Spring Boot Developer Tools
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/login-registration-springboot-hibernate-jsp-auth/pom.xml
+  detection_source: login-registration-springboot-hibernate-jsp-auth/pom.xml
+  last_updated_by: Raja Dilip Kolli
+  last_updated_on: 2023-07-16 21:11:57.000000000 Z
+- name: org.springframework.boot:spring-boot-starter
+  description: Core starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/spring-propertysource-example/pom.xml
+  detection_source: spring-propertysource-example/pom.xml
+  last_updated_by: rfadatare
+  last_updated_on: 2018-09-17 07:27:09.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-actuator
+  description: Starter for using Spring Boot's Actuator which provides production
+    ready features to help you monitor and manage your application
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/login-registration-springboot-hibernate-jsp-auth/pom.xml
+  detection_source: login-registration-springboot-hibernate-jsp-auth/pom.xml
+  last_updated_by: Raja Dilip Kolli
+  last_updated_on: 2023-07-16 21:11:57.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-aop
+  description: Starter for aspect-oriented programming with Spring AOP and AspectJ
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/spring-aop-advice-examples/pom.xml
+  detection_source: spring-aop-advice-examples/pom.xml
+  last_updated_by: Ramesh Fadatare
+  last_updated_on: 2023-03-29 09:02:29.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-jpa
+  description: Starter for using Spring Data JPA with Hibernate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/login-registration-springboot-hibernate-jsp-auth/pom.xml
+  detection_source: login-registration-springboot-hibernate-jsp-auth/pom.xml
+  last_updated_by: Raja Dilip Kolli
+  last_updated_on: 2023-07-16 21:11:57.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-mongodb
+  description: Starter for using MongoDB document-oriented database and Spring Data
+    MongoDB
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot-mongodb-crud/pom.xml
+  detection_source: springboot-mongodb-crud/pom.xml
+  last_updated_by: Ramesh Fadatare
+  last_updated_on: 2023-03-29 09:02:29.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-jdbc
+  description: Starter for using JDBC with the HikariCP connection pool
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot2-jdbc-crud-mysql-example/pom.xml
+  detection_source: springboot2-jdbc-crud-mysql-example/pom.xml
+  last_updated_by: Ramesh Fadatare
+  last_updated_on: 2019-08-03 14:33:08.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-security
+  description: Starter for using Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/login-registration-springboot-hibernate-jsp-auth/pom.xml
+  detection_source: login-registration-springboot-hibernate-jsp-auth/pom.xml
+  last_updated_by: Raja Dilip Kolli
+  last_updated_on: 2023-07-16 21:11:57.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/login-registration-springboot-hibernate-jsp-auth/pom.xml
+  detection_source: login-registration-springboot-hibernate-jsp-auth/pom.xml
+  last_updated_by: Raja Dilip Kolli
+  last_updated_on: 2023-07-16 21:11:57.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-thymeleaf
+  description: Starter for building MVC web applications using Thymeleaf views
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot-jsp-hello-world-example/pom.xml
+  detection_source: springboot-jsp-hello-world-example/pom.xml
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-07-16 22:52:34.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-tomcat
+  description: Starter for using Tomcat as the embedded servlet container
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot2-webapp-jsp-WAR/pom.xml
+  detection_source: springboot2-webapp-jsp-WAR/pom.xml
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-07-16 18:21:11.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-validation
+  description: Starter for using Java Bean Validation with Hibernate Validator
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/spring-aop-advice-examples/pom.xml
+  detection_source: spring-aop-advice-examples/pom.xml
+  last_updated_by: Ramesh Fadatare
+  last_updated_on: 2023-03-29 09:02:29.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/login-registration-springboot-hibernate-jsp-auth/pom.xml
+  detection_source: login-registration-springboot-hibernate-jsp-auth/pom.xml
+  last_updated_by: Raja Dilip Kolli
+  last_updated_on: 2023-07-16 21:11:57.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-websocket
+  description: Starter for building WebSocket applications using Spring Framework's
+    WebSocket support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot-stomp-websocket/build.gradle
+  detection_source: springboot-stomp-websocket/build.gradle
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-21 15:54:38.000000000 Z
+- name: org.springframework.security:spring-security-test
+  description: Spring-security-test
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/login-registration-springboot-hibernate-jsp-auth/pom.xml
+  detection_source: login-registration-springboot-hibernate-jsp-auth/pom.xml
+  last_updated_by: Raja Dilip Kolli
+  last_updated_on: 2023-07-16 21:11:57.000000000 Z
+- name: org.testcontainers:postgresql
+  description: Testcontainers is a Java library that supports JUnit tests
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/springboot2-jpa-swagger3/pom.xml
+  detection_source: springboot2-jpa-swagger3/pom.xml
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-07-16 23:21:51.000000000 Z
+- name: org.webjars:bootstrap
+  description: WebJar for Bootstrap
+  version: 5.3.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/login-registration-springboot-hibernate-jsp-auth/pom.xml
+  detection_source: login-registration-springboot-hibernate-jsp-auth/pom.xml
+  last_updated_by: Raja Dilip Kolli
+  last_updated_on: 2023-07-16 21:11:57.000000000 Z
+- name: org.webjars:jquery
+  description: WebJar for jQuery
+  version: 3.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rajadilipkolli/spring-boot-tutorial/blob/master/login-registration-springboot-hibernate-jsp-auth/pom.xml
+  detection_source: login-registration-springboot-hibernate-jsp-auth/pom.xml
+  last_updated_by: Raja Dilip Kolli
+  last_updated_on: 2023-07-16 21:11:57.000000000 Z
